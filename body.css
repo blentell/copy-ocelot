@@ -1,0 +1,143 @@
+.main {
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: linear-gradient(#729FD6,#EFF4FA );
+
+}
+
+.main1 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-right: 15px;
+
+}
+
+.main2 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.topStory {
+border: 1px solid red;
+width: 788px;
+height: 720px;
+margin-top: 55px;
+}
+
+.latestNews {
+border: 1px solid red;
+width: 788px;
+height: 313px;
+margin-top: 15px;
+
+}
+
+.weatherAcrossAmerica {
+display: flex;
+flex-direction: column;
+border: 1px solid red;
+width: 788px;
+height: 562px;
+margin-top: 15px;
+justify-content: center;
+background-color: white;
+}
+
+.weatherTitle {
+    background-color: white;
+    text-align: start;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    margin-top: -20px;
+}
+
+.weatherAcrossAmericaImage {
+width: 756px;
+height: 425px;
+align-items: center;
+margin-left: 20px;
+}
+
+.weatherReadMore {
+    display: flex;
+    background-color: blue;
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 20px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.recommended {
+border: 1px solid red;
+width: 788px;
+height: 309px;
+margin-top: 15px;
+
+}
+
+.photos {
+border: 1px solid red;
+width: 788px;
+height: 273px;
+margin-top: 15px;
+
+}
+
+.ad1 {
+width: 338px;
+height: 600px;
+border: 1px solid orange;
+margin-top: 100px;
+}
+
+.trackCorona {
+width: 338px;
+height: 377px;
+border: 1px solid orange;
+margin-top: 15px;
+}
+
+.ad2 {
+width: 338px;
+height: 250px;
+border: 1px solid orange;
+margin-top: 15px;
+}
+
+.buyPremium {
+width: 338px;
+height: 379px;
+border: 1px solid orange;
+margin-top: 15px;
+}
+
+.ad3 {
+width: 338px;
+height: 250px;
+border: 1px solid orange;
+margin-top: 15px;
+}
+
+.featuredDeal {
+width: 338px;
+height: 347px;
+border: 1px solid orange;
+margin-top: 15px;
+}
+
+
+.footer {
+
+}

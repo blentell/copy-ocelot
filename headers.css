@@ -1,0 +1,293 @@
+.headers {
+	display: flex;
+	height: 82px;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	background-color: #05336b;
+}
+.header1 {
+	/* border: 1px solid red; */
+	height: 82px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #05336b;
+	color: white;
+}
+
+.logoBox {
+	display: flex;
+	align-items: center;
+	height: 70px;
+	width: 246px;
+	margin-right: 130px;
+}
+
+.logo {
+	/* border: 1px solid red; */
+	height: 60px;
+	width: 60px;
+	margin-right: 5px;
+}
+
+.corp {
+	height: 23px;
+	width: 126px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.searchBar {
+	display: flex;
+	width: 380px;
+	height: 38px;
+	padding: 5px 6px;
+	border-radius: 38px;
+	justify-content: center;
+	background-color: #375c89;
+}
+
+.searchBarText {
+	border: none;
+	text-align: center;
+	width: 300px;
+	height: 32px;
+	background-color: #375c89;
+	color: white;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	box-sizing: border-box;
+	line-height: 1.15;
+	margin-right: 10px;
+}
+.searchIcon {
+	width: 24px;
+	height: 38px;
+	justify-self: flex-end;
+	fill: white;
+}
+
+.menu {
+	display: flex;
+	/* border: 1px solid red; */
+	width: 270px;
+	height: 35px;
+	margin-left: 130px;
+	justify-content: space-evenly;
+	margin-top: 15px;
+}
+
+.globe {
+	width: 23px;
+	height: 23px;
+	fill: white;
+}
+
+.us {
+	width: 18px;
+	height: 39px;
+}
+
+.spacer {
+}
+
+.unit {
+	width: 18px;
+	height: 34px;
+}
+
+.language {
+	width: 17px;
+	height: 22px;
+}
+
+.languageIcon {
+	fill: white;
+}
+
+.premium {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 77px;
+	height: 24px;
+	background-color: white;
+	border-radius: 36px;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 0.625rem;
+}
+
+.hamburgerMenu {
+	width: 30px;
+	height: 30px;
+	transform: translate(-50%, -50%);
+}
+
+.navbar {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	/* border: 5px solid #49b293; */
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.navbar div {
+	height: 5px;
+	width: 30px;
+	background-color: #fff;
+	position: absolute;
+	transition: all 0.5s ease;
+}
+
+.navbar .first {
+	top: 18px;
+	left: 20px;
+}
+
+.navbar .second {
+	top: 30px;
+	left: 20px;
+}
+
+.navbar .third {
+	top: 42px;
+	left: 20px;
+}
+
+.navbar:hover .first {
+	transform: translateY(12px) rotate(45deg);
+	transition: all 0.5s ease;
+}
+
+.navbar:hover .second {
+	opacity: 0;
+	transition: all 0.2s ease;
+}
+
+.navbar:hover .third {
+	transform: translateY(-12px) rotate(-45deg);
+	transition: all 0.5s ease;
+}
+
+.navbar:hover {
+	border-radius: 50%;
+	transition: all 0.3s ease;
+}
+
+.header2 {
+	display: flex;
+	justify-content: center;
+	border: 1px solid blue;
+	height: 40px;
+	background: #375c89;
+	color: white;
+}
+
+.currentLocation {
+	display: flex;
+	justify-content: end;
+	/* border: 1px solid blue; */
+	width: 50%;
+	height: 40px;
+	color: white;
+	margin-right: 5px;
+	
+	border-right: 1px solid white;
+}
+
+.currentLocationData, .locationNameBadge, .temperature, .alertsBadge, .icon, .locationName {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-decoration: none;
+	white-space: nowrap;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.icon {
+	width: 18px;
+	height: 18px;
+}
+
+.locationName {
+	margin-right: 150px;
+}
+
+.rightSide {
+	/* border: 1px red solid; */
+	width: 50%;
+	justify-content: flex-end;
+}
+.header3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	border: 1px solid green;
+	height: 40px;
+	display: flex;
+	background: #031f40;
+	color: white;
+	font-size: 18px;
+	
+}
+
+.today {
+	/* border: 1px solid green; */
+	margin-right: 50px;
+}
+
+.hourly {
+	/* border: 1px solid green; */
+	margin-right: 50px;
+
+}
+
+.tenDay {
+	/* border: 1px solid green; */
+	margin-right: 50px;
+
+}
+
+.weekend {
+	/* border: 1px solid green; */
+	margin-right: 50px;
+
+}
+
+.monthly {
+	/* border: 1px solid green; */
+	margin-right: 50px;
+
+}
+
+.radar {
+	/* border: 1px solid green; */
+	margin-right: 50px;
+
+}
+
+.video {
+	/* border: 1px solid green; */
+	margin-right: 50px;
+
+}
+
+.moreForecast {
+	/* border: 1px solid green; */
+}
+
+.triangle {
+	fill: white;
+	width: 17px;
+	height: 22px;
+	margin-top: 5px;
+	margin-left: 4px;
+}
