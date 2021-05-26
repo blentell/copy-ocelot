@@ -7,7 +7,6 @@
 	background-color: #05336b;
 }
 .header1 {
-	/* border: 1px solid red; */
 	height: 82px;
 	display: flex;
 	justify-content: center;
@@ -25,7 +24,6 @@
 }
 
 .logo {
-	/* border: 1px solid red; */
 	height: 60px;
 	width: 60px;
 	margin-right: 5px;
@@ -73,7 +71,6 @@
 
 .menu {
 	display: flex;
-	/* border: 1px solid red; */
 	width: 270px;
 	height: 35px;
 	margin-left: 130px;
@@ -130,7 +127,6 @@
 	width: 30px;
 	height: 30px;
 	position: relative;
-	/* border: 5px solid #49b293; */
 	cursor: pointer;
 	transition: all 0.3s ease;
 }
@@ -190,12 +186,10 @@
 .currentLocation {
 	display: flex;
 	justify-content: end;
-	/* border: 1px solid blue; */
-	width: 50%;
+	width: 30%;
 	height: 40px;
 	color: white;
 	margin-right: 5px;
-
 	border-right: 1px solid white;
 }
 
@@ -225,7 +219,6 @@
 }
 
 .rightSide {
-	/* border: 1px red solid; */
 	width: 50%;
 	justify-content: flex-end;
 }
@@ -234,7 +227,6 @@
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-	border: 1px solid green;
 	height: 40px;
 	display: flex;
 	background: #031f40;
@@ -243,37 +235,30 @@
 }
 
 .today {
-	/* border: 1px solid green; */
 	margin-right: 50px;
 }
 
 .hourly {
-	/* border: 1px solid green; */
 	margin-right: 50px;
 }
 
 .tenDay {
-	/* border: 1px solid green; */
 	margin-right: 50px;
 }
 
 .weekend {
-	/* border: 1px solid green; */
 	margin-right: 50px;
 }
 
 .monthly {
-	/* border: 1px solid green; */
 	margin-right: 50px;
 }
 
 .radar {
-	/* border: 1px solid green; */
 	margin-right: 50px;
 }
 
 .video {
-	/* border: 1px solid green; */
 	margin-right: 50px;
 }
 
