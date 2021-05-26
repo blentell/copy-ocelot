@@ -92,9 +92,6 @@
 	height: 39px;
 }
 
-.spacer {
-}
-
 .unit {
 	width: 18px;
 	height: 34px;
@@ -278,10 +275,6 @@
 .video {
 	/* border: 1px solid green; */
 	margin-right: 50px;
-}
-
-.moreForecast {
-	/* border: 1px solid green; */
 }
 
 .triangle {
